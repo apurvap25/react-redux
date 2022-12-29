@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.img-wrapper button{
+  width: 100px;
+  margin-top: -10px;
+  
+  
+}
+.btn-wrapper button{
+  background-color: rgb(52, 112, 136);
+  border: 1px;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: #282c34 0px 1px 5px;
+  margin-top: 25%;
+  color: #ccc;
+}
+.cart-wrapper{
+  height: 150px;
+  width: 500px;
+  border: 1px solid #ccc;
+  margin-left: 10%;
+}
+img{
+  height: 100px;
+}
+
+.item{
+  float:left;
+  display:inline-block;
+  width: 120px;
+  padding: 20px;
+  height: 70px;
+}
+.add-to-cart img{
+  width: 80px;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+}
